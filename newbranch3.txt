@@ -1,0 +1,69 @@
+
+
+git config --global user.name"dineshbabu2703"
+
+git config --global user.email "mrdineshbabu27@gmail.com"
+
+
+clone the github to local folder.
+git clone https://github.com/dineshbabu2703/GITHUB-EMC1.git
+
+to change directory
+cd "----"
+
+to revert directory
+cd ..
+
+to check the status of the file
+git status
+
+its add the file to github ---> convert to staging area
+git add test2.txt
+
+staging area --> git local folder
+git commit -m "Test2.txt fike added"
+
+orgin --> https://github.com/dineshbabu2703/GITHUB-EMC1.git
+
+local to github -->  git push origin main 
+
+
+ls --> will list the files in the directory. 
+
+to initialize the empty git repo
+git init
+
+it add all modified files to staging area
+git add .
+
+current working illama inorudathula irukuradhu 
+git remote
+
+to change the branch to main 
+git branch -M main
+
+
+it list out the available branches
+git branch -a 
+
+to change the branch 
+git checkout gitbranch1
+
+to send the updated file to main branch
+git merge gitbranch1
+
+
+to push subbranch file to main branch 
+git checkout main 
+git merge branch2  
+git push origin main 
+
+
+to create a new branch in local repo and the push to Github
+
+git branch newbranch3
+git checkout newbranch3
+
+
+
+
